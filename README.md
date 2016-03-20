@@ -91,6 +91,7 @@ See [GiftedMessengerExample/GiftedMessengerExample.js](https://raw.githubusercon
 | placeholder                   | String   | TextInput placeholder                                                      | Both     | 'Type a message...'              |
 | styles                        | Function | Styles of children components - See GiftedMessenger.js/componentWillMount  | Both     | {}                               |
 | autoFocus                     | Boolean  | TextInput auto focus                                                       | Both     | true                             |
+| autoScroll                    | Boolean  | Auto scroll to bottom after loading                                                       | Both     | false                            |
 | onErrorButtonPress            | Function | Called when the re-send button is pressed                                  | Both     | (message, rowID) => {}           |
 | loadEarlierMessagesButton     | Boolean  | Display or not the button to load earlier message                          | Both     | false                            |
 | loadEarlierMessagesButtonText | String   | Label of the 'Load Earlier Messages' button                                | Both     | 'Load earlier messages'          |
